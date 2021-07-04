@@ -7,11 +7,16 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
+    "better-docs": "^2.3.2",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
+    "jsdoc": "^3.6.7",
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build": "yarn clean; tsc --outDir dist",
+    "clean": "rm -rf dist/",
+    "write-docs": "jsdoc -c jsdoc.json"
   }
 }
