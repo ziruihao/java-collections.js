@@ -2,6 +2,10 @@
   "name": "java-collections.js",
   "version": "1.0.0",
   "description": "Bringing elegant data structures to JavaScript with a neatly-typed, object-oriented replica of Java's Collections Framework.",
+  "author": {
+    "name": "Ziray Hao",
+    "email": "ziray.hao@gmail.com"
+  },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
